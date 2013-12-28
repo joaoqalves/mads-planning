@@ -1,4 +1,5 @@
 Mads::Application.routes.draw do
+  get 'login/:username/:password' => 'client#login'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
