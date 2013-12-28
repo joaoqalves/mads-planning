@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<title>Mads Timer</title>
+
+	<script type="text/javascript"  src="../app/assets/javascripts/jquery/jquery.1.8.2.min.js"></script>
+  	<script type="text/javascript"  src="../app/assets/javascripts/FlipClock/flipclock.min.js"></script>
+
+  	<link href="../app/assets/stylesheets/flip_clock/flipclock.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+	<div id="clock"></div>
+
+	<script>
+		$(document).ready(function(){
+		    clock = $('#clock').FlipClock({
+		         clockFace: 'HourlyCounter'
+		    });
+		});
+	</script>
+</body>
+</html>
